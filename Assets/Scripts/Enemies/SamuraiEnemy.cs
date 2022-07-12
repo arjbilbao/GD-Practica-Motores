@@ -16,6 +16,11 @@ public class SamuraiEnemy : MonoBehaviour
     public Transform AttackPoint;
     public float AttackRange;
     public LayerMask PlayerLayers;
+    public float startTime, _hitTimer;
+    public bool _hitTaken;
+     public bool starting;
+     public int _health;
+     public bool Death=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +28,9 @@ public class SamuraiEnemy : MonoBehaviour
         rb=GetComponent<Rigidbody2D>();
         _bloodStream.Stop();
         _blood=true;
+        _hitTimer=0;
+         starting=true;
+         _health=100;
    
     }
 
@@ -50,9 +58,56 @@ public class SamuraiEnemy : MonoBehaviour
 
     }
 
-    void FixedUpdate(){
+    void HitTakenTimer()
+    {       
+        
+        if(_hitTaken==true){
+               
 
-        Chasing();
+                if( _hitTimer==0f&&starting==true){
+
+                    startTime=Time.time;
+                    starting=false;
+                    
+                    
+                }
+
+                
+
+                if(_hitTimer<1.6f&&startTime>0){
+        
+                        _hitTimer+= Time.deltaTime;
+                }
+                else if(_hitTimer>=1.6f){
+
+                    _hitTimer=0;
+                    startTime=0;
+                    _hitTaken=false;
+                    starting=true;
+                }
+
+
+
+
+    }
+    }
+
+    void FixedUpdate(){
+            if(_health>0){
+                    Chasing();
+
+            }
+
+            if(_health<=0&&Death==false){
+                _animator.SetTrigger("Death");
+                Death=true;
+                this.gameObject.layer=8;
+                Destroy(this.gameObject,10);
+                
+             _bloodStream.Stop();
+             _blood=false;
+            }
+        
     }
 
     void Attacking(){
@@ -77,8 +132,16 @@ public class SamuraiEnemy : MonoBehaviour
                     //This sections controls the Samurai movement when sees the player.
                     float distance = Player.transform.position.x - transform.position.x;
                     float heigh= Player.transform.position.y - transform.position.y;
+                     //this conditional detects the player when he's within a distance of 2Unities and on plain sight.
+                     if(Mathf.Abs(distance)<2&&Mathf.Abs(heigh)<0.6f){
 
-                    if(_playerSeen&&distance>0.4f){
+                        _playerSeen=true;
+                        
+                    }
+                    if(_hitTaken==false){
+                     
+                
+                    if(_playerSeen&&distance>0.6f){
                             _animator.SetBool("Run", true);
                             transform.rotation = Quaternion.Euler(0,0,0);
                        Vector2 move = new Vector2 (1f, 0f);
@@ -86,7 +149,7 @@ public class SamuraiEnemy : MonoBehaviour
                             rb.MovePosition(samuraiPlace+move*speed*Time.deltaTime);
                            
                     }
-                     if(_playerSeen&&distance<-0.4f){
+                     if(_playerSeen&&distance<-0.6f){
                             _animator.SetBool("Run", true);
                             transform.rotation = Quaternion.Euler(0,180,0);
                        Vector2 move = new Vector2 (-1f, 0f);
@@ -95,12 +158,19 @@ public class SamuraiEnemy : MonoBehaviour
                             
                             
                     }
+                    }
                     //Once the Samurai reaches the player within the attack range, he attacks.
-                    if(_playerSeen&&((distance<=0.4f&&distance>=0.0f)|(distance>=-0.4f&&distance<=0.0f))){
+                    if(_playerSeen&&((distance<=0.6f&&distance>=0.0f)|(distance>=-0.6f&&distance<=0.0f))){
 
-                          _animator.SetBool("Run", false);
-                          _animator.SetTrigger("Attack");
-                          Attacking();
+                            _animator.SetBool("Run", false);
+                           
+                            if(_hitTimer==0&&_hitTaken==false){
+                                     
+                                
+                                _animator.SetTrigger("Attack");
+                                Attacking();
+                            }
+                         
                     }
                    
                     if(Mathf.Abs(distance)>2f||Mathf.Abs(heigh)>0.3f){
@@ -108,14 +178,10 @@ public class SamuraiEnemy : MonoBehaviour
                         _playerSeen=false;
                          _animator.SetBool("Run", false);
                     }
+                     HitTakenTimer();
 
 
-                    //this conditional detects the player when he's within a distance of 2Unities and on plain sight.
-                     if(Mathf.Abs(distance)<2&&Mathf.Abs(heigh)<0.6f){
-
-                        _playerSeen=true;
-                        
-                    }
+                  
                     
 
                    

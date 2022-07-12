@@ -15,6 +15,11 @@ public class PlayerController : MonoBehaviour
     public Transform AttackPoint; //Point of attack set according the size of the sprite;
     public float AttackRange=0.4f; //Size of the attack set according the size of the sprite;
     public LayerMask EnemyLayers;
+    public LayerMask GhostLayer;
+    public LayerMask PlayerLayer;
+    public int combo;
+    public float _startTime, _DashTime;
+    public bool _isDashing;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +28,7 @@ public class PlayerController : MonoBehaviour
         _animator=GetComponent<Animator>();
         _hitbox=GetComponent<CircleCollider2D>();
          jump = new Vector2(0f,1f);
+         combo = 0;
             
         
     }
@@ -32,6 +38,7 @@ public class PlayerController : MonoBehaviour
     {
        
           Attacking();
+          DashAttack();
     }
 
     void FixedUpdate(){
@@ -52,6 +59,35 @@ public class PlayerController : MonoBehaviour
     //This Method controls the horizontal movemento of the player
     {
             rb.velocity= new Vector2(Input.GetAxis("Horizontal")*speed*Time.deltaTime, rb.velocity.y);
+
+    }
+
+    void DashAttack()
+    {
+            if(Input.GetKeyDown(KeyCode.E) && _isGrounded&&_isDashing==false){
+
+                _animator.SetTrigger("Dash");
+                this.gameObject.layer=8;
+                
+                _isDashing=true;
+                 //rb.velocity= new Vector2(Input.GetAxis("Horizontal")*speed*20*Time.deltaTime, rb.velocity.y);
+
+                rb.MovePosition(new Vector2 (transform.position.x+(Input.GetAxis("Horizontal")*1.8f), transform.position.y));
+                
+            }
+            if(_isDashing==true){
+
+                _DashTime+=Time.deltaTime;
+
+                    if(_DashTime>=2f){
+                          this.gameObject.layer=6;
+                        _isDashing=false;
+                        _DashTime=0;
+                    }
+            }
+
+
+
 
     }
 
@@ -77,9 +113,19 @@ public class PlayerController : MonoBehaviour
     void Attacking()
     {
 
-        if(Input.GetKeyDown(KeyCode.Z)&&rb.velocity.y==0)
+        if(Input.GetKeyDown(KeyCode.R)&&rb.velocity.y==0)
         {
-                _animator.SetTrigger("Attack");
+               
+             _animator.SetInteger("Combo",combo);
+                if(combo<3){
+
+                    combo=combo+1;
+                }
+                if(combo==3){
+
+                    combo=0;
+                }
+                   _animator.SetTrigger("Attack");
              
                     //this section is intended to apply damage on the enemies.
 
@@ -89,8 +135,14 @@ public class PlayerController : MonoBehaviour
                foreach(Collider2D enemy in HitEnemies){
 
                 Debug.Log("I hit " + enemy.name);
+                enemy.GetComponent<SamuraiEnemy>()._hitTaken=true;
                 enemy.GetComponent<SamuraiEnemy>()._animator.SetTrigger("HitTaken");
                 enemy.GetComponent<SamuraiEnemy>()._bloodStream.Play();
+                if(combo==2){
+                enemy.GetComponent<SamuraiEnemy>()._health-=20;
+
+                }
+                else enemy.GetComponent<SamuraiEnemy>()._health-=10;
                }
 
         }
@@ -109,6 +161,7 @@ public class PlayerController : MonoBehaviour
                 _animator.SetBool("Run",true);
                 _animator.SetBool("Idle",false);
               transform.rotation = Quaternion.Euler(0,0,0);  
+               
             }
              if(Input.GetAxis("Horizontal")>0&&_animator.GetBool("Attack1")==true&&_isGrounded){
 
@@ -121,6 +174,7 @@ public class PlayerController : MonoBehaviour
                 _animator.SetBool("Run",true);
                 _animator.SetBool("Idle",false);
              transform.rotation = Quaternion.Euler(0,180,0);  
+              
             }
              if(Input.GetAxis("Horizontal")<0&&_animator.GetBool("Attack1")==true&&_isGrounded){
 

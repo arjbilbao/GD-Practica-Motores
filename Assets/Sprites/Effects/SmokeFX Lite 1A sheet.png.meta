@@ -1,0 +1,3168 @@
+fileFormatVersion: 2
+guid: 42a503debd2845640a435b7946b0bd5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6851495682402032141
+    second: SmokeFX Lite 1A sheet_0
+  - first:
+      213: 6752192191462916677
+    second: SmokeFX Lite 1A sheet_1
+  - first:
+      213: 3568367053567140615
+    second: SmokeFX Lite 1A sheet_2
+  - first:
+      213: -6525350652995569505
+    second: SmokeFX Lite 1A sheet_3
+  - first:
+      213: 1612828685023922826
+    second: SmokeFX Lite 1A sheet_4
+  - first:
+      213: -1087731499396040413
+    second: SmokeFX Lite 1A sheet_5
+  - first:
+      213: -2884091592716157463
+    second: SmokeFX Lite 1A sheet_6
+  - first:
+      213: 8492902266821105841
+    second: SmokeFX Lite 1A sheet_7
+  - first:
+      213: -3732641884644746774
+    second: SmokeFX Lite 1A sheet_8
+  - first:
+      213: -6708503435022566379
+    second: SmokeFX Lite 1A sheet_9
+  - first:
+      213: -5586317593727571788
+    second: SmokeFX Lite 1A sheet_10
+  - first:
+      213: -3043395453502078247
+    second: SmokeFX Lite 1A sheet_11
+  - first:
+      213: -4830203321564752473
+    second: SmokeFX Lite 1A sheet_12
+  - first:
+      213: -1679323383506485754
+    second: SmokeFX Lite 1A sheet_13
+  - first:
+      213: 7797483223082265683
+    second: SmokeFX Lite 1A sheet_14
+  - first:
+      213: -8756917037103805144
+    second: SmokeFX Lite 1A sheet_15
+  - first:
+      213: -2745413622491097182
+    second: SmokeFX Lite 1A sheet_16
+  - first:
+      213: -8760721339387762791
+    second: SmokeFX Lite 1A sheet_17
+  - first:
+      213: 7001595974249143950
+    second: SmokeFX Lite 1A sheet_18
+  - first:
+      213: 9034988524796550462
+    second: SmokeFX Lite 1A sheet_19
+  - first:
+      213: -5546221075186497547
+    second: SmokeFX Lite 1A sheet_20
+  - first:
+      213: -6604980253213921795
+    second: SmokeFX Lite 1A sheet_21
+  - first:
+      213: 403392248758972841
+    second: SmokeFX Lite 1A sheet_22
+  - first:
+      213: -2366702334124924589
+    second: SmokeFX Lite 1A sheet_23
+  - first:
+      213: -1648917592309102941
+    second: SmokeFX Lite 1A sheet_24
+  - first:
+      213: 5595754207751071293
+    second: SmokeFX Lite 1A sheet_25
+  - first:
+      213: 8254036064476191091
+    second: SmokeFX Lite 1A sheet_26
+  - first:
+      213: -4453581199476890202
+    second: SmokeFX Lite 1A sheet_27
+  - first:
+      213: -2533501056005881839
+    second: SmokeFX Lite 1A sheet_28
+  - first:
+      213: 6883215114041489088
+    second: SmokeFX Lite 1A sheet_29
+  - first:
+      213: 3991015179356655912
+    second: SmokeFX Lite 1A sheet_30
+  - first:
+      213: 849647944981728263
+    second: SmokeFX Lite 1A sheet_31
+  - first:
+      213: 926354910097647575
+    second: SmokeFX Lite 1A sheet_32
+  - first:
+      213: -2536524580975195365
+    second: SmokeFX Lite 1A sheet_33
+  - first:
+      213: -5138428248363505740
+    second: SmokeFX Lite 1A sheet_34
+  - first:
+      213: -5031816774167657746
+    second: SmokeFX Lite 1A sheet_35
+  - first:
+      213: 6558197425471127494
+    second: SmokeFX Lite 1A sheet_36
+  - first:
+      213: -2836001721256519655
+    second: SmokeFX Lite 1A sheet_37
+  - first:
+      213: 2618446320621848057
+    second: SmokeFX Lite 1A sheet_38
+  - first:
+      213: -5347474606128721651
+    second: SmokeFX Lite 1A sheet_39
+  - first:
+      213: 7527127291097629885
+    second: SmokeFX Lite 1A sheet_40
+  - first:
+      213: -5962981770244818856
+    second: SmokeFX Lite 1A sheet_41
+  - first:
+      213: -2720198837151641761
+    second: SmokeFX Lite 1A sheet_42
+  - first:
+      213: 7354429261254220129
+    second: SmokeFX Lite 1A sheet_43
+  - first:
+      213: 2308215100940907043
+    second: SmokeFX Lite 1A sheet_44
+  - first:
+      213: 968014092378618332
+    second: SmokeFX Lite 1A sheet_45
+  - first:
+      213: 129886083723823224
+    second: SmokeFX Lite 1A sheet_46
+  - first:
+      213: 7473615249586165474
+    second: SmokeFX Lite 1A sheet_47
+  - first:
+      213: -3004008757441059904
+    second: SmokeFX Lite 1A sheet_48
+  - first:
+      213: -5472141758921660558
+    second: SmokeFX Lite 1A sheet_49
+  - first:
+      213: -8147592454600719834
+    second: SmokeFX Lite 1A sheet_50
+  - first:
+      213: -4686411918421317432
+    second: SmokeFX Lite 1A sheet_51
+  - first:
+      213: 5608464859837432095
+    second: SmokeFX Lite 1A sheet_52
+  - first:
+      213: -6012423147007862051
+    second: SmokeFX Lite 1A sheet_53
+  - first:
+      213: -5239778782094570332
+    second: SmokeFX Lite 1A sheet_54
+  - first:
+      213: -7029037831341666265
+    second: SmokeFX Lite 1A sheet_55
+  - first:
+      213: -1905237143304946987
+    second: SmokeFX Lite 1A sheet_56
+  - first:
+      213: 4671488592741496500
+    second: SmokeFX Lite 1A sheet_57
+  - first:
+      213: 3750468107393033401
+    second: SmokeFX Lite 1A sheet_58
+  - first:
+      213: 624861866597563174
+    second: SmokeFX Lite 1A sheet_59
+  - first:
+      213: -2906244996454809280
+    second: SmokeFX Lite 1A sheet_60
+  - first:
+      213: -1674738953208273748
+    second: SmokeFX Lite 1A sheet_61
+  - first:
+      213: 1654551261817546571
+    second: SmokeFX Lite 1A sheet_62
+  - first:
+      213: 4647315749438264789
+    second: SmokeFX Lite 1A sheet_63
+  - first:
+      213: 147202443468969405
+    second: SmokeFX Lite 1A sheet_64
+  - first:
+      213: 1256951806998014748
+    second: SmokeFX Lite 1A sheet_65
+  - first:
+      213: 7546700867059165788
+    second: SmokeFX Lite 1A sheet_66
+  - first:
+      213: 810571526236933095
+    second: SmokeFX Lite 1A sheet_67
+  - first:
+      213: -483966020262604328
+    second: SmokeFX Lite 1A sheet_68
+  - first:
+      213: -6981687900997399670
+    second: SmokeFX Lite 1A sheet_69
+  - first:
+      213: 7025712438077542723
+    second: SmokeFX Lite 1A sheet_70
+  - first:
+      213: -2444753237245906929
+    second: SmokeFX Lite 1A sheet_71
+  - first:
+      213: 8496051010896619661
+    second: SmokeFX Lite 1A sheet_72
+  - first:
+      213: 2900991525018753359
+    second: SmokeFX Lite 1A sheet_73
+  - first:
+      213: -8187323804393885877
+    second: SmokeFX Lite 1A sheet_74
+  - first:
+      213: 3743807578245993490
+    second: SmokeFX Lite 1A sheet_75
+  - first:
+      213: 5658806824262276591
+    second: SmokeFX Lite 1A sheet_76
+  - first:
+      213: -6429471575007047306
+    second: SmokeFX Lite 1A sheet_77
+  - first:
+      213: 3540285571177283029
+    second: SmokeFX Lite 1A sheet_78
+  - first:
+      213: -8501476402466349361
+    second: SmokeFX Lite 1A sheet_79
+  - first:
+      213: 1942091138436272395
+    second: SmokeFX Lite 1A sheet_80
+  - first:
+      213: 7611985397171894858
+    second: SmokeFX Lite 1A sheet_81
+  - first:
+      213: 1137114788008576537
+    second: SmokeFX Lite 1A sheet_82
+  - first:
+      213: 999039981248057693
+    second: SmokeFX Lite 1A sheet_83
+  - first:
+      213: 6824233981267176100
+    second: SmokeFX Lite 1A sheet_84
+  - first:
+      213: 6791990374950325870
+    second: SmokeFX Lite 1A sheet_85
+  - first:
+      213: 7576961799262836119
+    second: SmokeFX Lite 1A sheet_86
+  - first:
+      213: 8199329064230724654
+    second: SmokeFX Lite 1A sheet_87
+  - first:
+      213: 6769451897271068364
+    second: SmokeFX Lite 1A sheet_88
+  - first:
+      213: -8606278445848850564
+    second: SmokeFX Lite 1A sheet_89
+  - first:
+      213: -5108312660123374070
+    second: SmokeFX Lite 1A sheet_90
+  - first:
+      213: 3397843499287555629
+    second: SmokeFX Lite 1A sheet_91
+  - first:
+      213: 68686402550890737
+    second: SmokeFX Lite 1A sheet_92
+  - first:
+      213: -2587760095929019337
+    second: SmokeFX Lite 1A sheet_93
+  - first:
+      213: 6504240224291760840
+    second: SmokeFX Lite 1A sheet_94
+  - first:
+      213: -6081065705488711163
+    second: SmokeFX Lite 1A sheet_95
+  - first:
+      213: 8470722279322467403
+    second: SmokeFX Lite 1A sheet_96
+  - first:
+      213: 8164300123979176729
+    second: SmokeFX Lite 1A sheet_97
+  - first:
+      213: -8114902582446538493
+    second: SmokeFX Lite 1A sheet_98
+  - first:
+      213: -2936747732582610679
+    second: SmokeFX Lite 1A sheet_99
+  - first:
+      213: 196302585494264121
+    second: SmokeFX Lite 1A sheet_100
+  - first:
+      213: -3394073753336758772
+    second: SmokeFX Lite 1A sheet_101
+  - first:
+      213: 6684253243026527674
+    second: SmokeFX Lite 1A sheet_102
+  - first:
+      213: -2101029463027030824
+    second: SmokeFX Lite 1A sheet_103
+  - first:
+      213: 1768717612381192703
+    second: SmokeFX Lite 1A sheet_104
+  - first:
+      213: 2317816178846991916
+    second: SmokeFX Lite 1A sheet_105
+  - first:
+      213: -564822703919778639
+    second: SmokeFX Lite 1A sheet_106
+  - first:
+      213: -4258947656921255300
+    second: SmokeFX Lite 1A sheet_107
+  - first:
+      213: 3029453068969635488
+    second: SmokeFX Lite 1A sheet_108
+  - first:
+      213: 4922437703853866173
+    second: SmokeFX Lite 1A sheet_109
+  - first:
+      213: -3090505674745303702
+    second: SmokeFX Lite 1A sheet_110
+  - first:
+      213: 4414548095554452519
+    second: SmokeFX Lite 1A sheet_111
+  - first:
+      213: 8753779187745142371
+    second: SmokeFX Lite 1A sheet_112
+  - first:
+      213: 5053160548223026683
+    second: SmokeFX Lite 1A sheet_113
+  - first:
+      213: -4787837124115754573
+    second: SmokeFX Lite 1A sheet_114
+  - first:
+      213: -2748835002985073312
+    second: SmokeFX Lite 1A sheet_115
+  - first:
+      213: -5659104063001004102
+    second: SmokeFX Lite 1A sheet_116
+  - first:
+      213: 8108366916578735708
+    second: SmokeFX Lite 1A sheet_117
+  - first:
+      213: 6669966176820290059
+    second: SmokeFX Lite 1A sheet_118
+  - first:
+      213: 3640067152457061558
+    second: SmokeFX Lite 1A sheet_119
+  - first:
+      213: 5169560547134626128
+    second: SmokeFX Lite 1A sheet_120
+  - first:
+      213: -6575418577812780597
+    second: SmokeFX Lite 1A sheet_121
+  - first:
+      213: 2393771917602060494
+    second: SmokeFX Lite 1A sheet_122
+  - first:
+      213: -3764140842169463187
+    second: SmokeFX Lite 1A sheet_123
+  - first:
+      213: -8232642507661000096
+    second: SmokeFX Lite 1A sheet_124
+  - first:
+      213: -578268473827115944
+    second: SmokeFX Lite 1A sheet_125
+  - first:
+      213: 1205038285978575316
+    second: SmokeFX Lite 1A sheet_126
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5ed464af89ae0a0800000000000000
+      internalID: -6851495682402032141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5424053060b94bd50800000000000000
+      internalID: 6752192191462916677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703a310ede2658130800000000000000
+      internalID: 3568367053567140615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98f555672c4175a0800000000000000
+      internalID: -6525350652995569505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4966d42be16610800000000000000
+      internalID: 1612828685023922826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329fe7fd6f997e0f0800000000000000
+      internalID: -1087731499396040413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed767c1af5a9f7d0800000000000000
+      internalID: -2884091592716157463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b85bf54d99dcd570800000000000000
+      internalID: 8492902266821105841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae951087bfdf23cc0800000000000000
+      internalID: -3732641884644746774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cfdf44bab96e2a0800000000000000
+      internalID: -6708503435022566379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86a5ffeb96972b0800000000000000
+      internalID: -5586317593727571788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d248faa5ffa3c5d0800000000000000
+      internalID: -3043395453502078247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59839ababa7fcb0800000000000000
+      internalID: -4830203321564752473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eb617b748d1b8e0800000000000000
+      internalID: -1679323383506485754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ce2e5bda9363c60800000000000000
+      internalID: 7797483223082265683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d8cd3d95e297680800000000000000
+      internalID: -8756917037103805144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a756ed2bd456e9d0800000000000000
+      internalID: -2745413622491097182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997ab9dab5aab6680800000000000000
+      internalID: -8760721339387762791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8edce9417aaa2160800000000000000
+      internalID: 7001595974249143950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d9a32a13ab26d70800000000000000
+      internalID: 9034988524796550462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f749b7315dd703b0800000000000000
+      internalID: -5546221075186497547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfde6b254756654a0800000000000000
+      internalID: -6604980253213921795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1bc6cec13299500800000000000000
+      internalID: 403392248758972841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351656534c8c72fd0800000000000000
+      internalID: -2366702334124924589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a60686af2edd19e0800000000000000
+      internalID: -1648917592309102941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36666bedcc18ad40800000000000000
+      internalID: 5595754207751071293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379dd52a11a3c8270800000000000000
+      internalID: 8254036064476191091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a562d2ce73b132c0800000000000000
+      internalID: -4453581199476890202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11041be663237dcd0800000000000000
+      internalID: -2533501056005881839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6fa096da7168f50800000000000000
+      internalID: 6883215114041489088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821deba092fe26730800000000000000
+      internalID: 3991015179356655912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cc6c8ed4e8acb00800000000000000
+      internalID: 849647944981728263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d72f48f1e21bdc00800000000000000
+      internalID: 926354910097647575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b4dea25547cccd0800000000000000
+      internalID: -2536524580975195365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e5709bb2a0b8b0800000000000000
+      internalID: -5138428248363505740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee282e8bd456b2ab0800000000000000
+      internalID: -5031816774167657746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf7618cfc5630b50800000000000000
+      internalID: 6558197425471127494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918db16d57f74a8d0800000000000000
+      internalID: -2836001721256519655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f508143e07965420800000000000000
+      internalID: 2618446320621848057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0196488d24f9c5b0800000000000000
+      internalID: -5347474606128721651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_40
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c50d046ab57860800000000000000
+      internalID: 7527127291097629885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8587d665cab3f3da0800000000000000
+      internalID: -5962981770244818856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f4521e199ef3ad0800000000000000
+      internalID: -2720198837151641761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169dbca927e201660800000000000000
+      internalID: 7354429261254220129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32276c4a76d680020800000000000000
+      internalID: 2308215100940907043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_45
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9bcc130b31f6d00800000000000000
+      internalID: 968014092378618332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_46
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87800a974b27dc100800000000000000
+      internalID: 129886083723823224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_47
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6968bf87d97b760800000000000000
+      internalID: 7473615249586165474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_48
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3209673fd9f46d0800000000000000
+      internalID: -3004008757441059904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_49
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277a4ea101c0f04b0800000000000000
+      internalID: -5472141758921660558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_50
+      rect:
+        serializedVersion: 2
+        x: 4544
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6220fd094dfedee80800000000000000
+      internalID: -8147592454600719834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_51
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8275b903586feb0800000000000000
+      internalID: -4686411918421317432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_52
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f110fd9331545dd40800000000000000
+      internalID: 5608464859837432095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_53
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda9243c0059f8ca0800000000000000
+      internalID: -6012423147007862051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_54
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4accf9f85f09847b0800000000000000
+      internalID: -5239778782094570332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_55
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72019167557d37e90800000000000000
+      internalID: -7029037831341666265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_56
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dabd6c99ec3f85e0800000000000000
+      internalID: -1905237143304946987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_57
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b675aedf1674d040800000000000000
+      internalID: 4671488592741496500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_58
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4e7927fd65c0430800000000000000
+      internalID: 3750468107393033401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_59
+      rect:
+        serializedVersion: 2
+        x: 5312
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b3c389e84fba800800000000000000
+      internalID: 624861866597563174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_60
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410e0cd291faa7d0800000000000000
+      internalID: -2906244996454809280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_61
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4e2829bc122c8e0800000000000000
+      internalID: -1674738953208273748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_62
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b472f4f3b9526f610800000000000000
+      internalID: 1654551261817546571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_63
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d598543d059e7040800000000000000
+      internalID: 4647315749438264789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_64
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db59909a7d7fa0200800000000000000
+      internalID: 147202443468969405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_65
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be6e34207917110800000000000000
+      internalID: 1256951806998014748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_66
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aa13754744bb860800000000000000
+      internalID: 7546700867059165788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_67
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb066e228abf3b00800000000000000
+      internalID: 810571526236933095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_68
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d153eef77b9849f0800000000000000
+      internalID: -483966020262604328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_69
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b486838df0c1f90800000000000000
+      internalID: -6981687900997399670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_70
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341d7a51d38508160800000000000000
+      internalID: 7025712438077542723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_71
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00b87232ed721ed0800000000000000
+      internalID: -2444753237245906929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_72
+      rect:
+        serializedVersion: 2
+        x: 6208
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d886712616908e570800000000000000
+      internalID: 8496051010896619661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_73
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4959210c64624820800000000000000
+      internalID: 2900991525018753359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_74
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fa002d068c06e80800000000000000
+      internalID: -8187323804393885877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_75
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21494c8282da4f330800000000000000
+      internalID: 3743807578245993490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_76
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe595b433de188e40800000000000000
+      internalID: 5658806824262276591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_77
+      rect:
+        serializedVersion: 2
+        x: 6592
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671db36daade5c6a0800000000000000
+      internalID: -6429471575007047306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_78
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd767148fe912130800000000000000
+      internalID: 3540285571177283029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_79
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce90a43140b40a80800000000000000
+      internalID: -8501476402466349361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_80
+      rect:
+        serializedVersion: 2
+        x: 6784
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b019debc991b3fa10800000000000000
+      internalID: 1942091138436272395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_81
+      rect:
+        serializedVersion: 2
+        x: 6848
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a34e1836433a960800000000000000
+      internalID: 7611985397171894858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_82
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916481000e7d7cf00800000000000000
+      internalID: 1137114788008576537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_83
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5114bed19d4ddd00800000000000000
+      internalID: 999039981248057693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_84
+      rect:
+        serializedVersion: 2
+        x: 7104
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa649d46ac84be50800000000000000
+      internalID: 6824233981267176100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_85
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e49c0b24ff14e50800000000000000
+      internalID: 6791990374950325870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_86
+      rect:
+        serializedVersion: 2
+        x: 7232
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79514c9ac96c62960800000000000000
+      internalID: 7576961799262836119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_87
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24220e875ed9c170800000000000000
+      internalID: 8199329064230724654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_88
+      rect:
+        serializedVersion: 2
+        x: 7360
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6afec62ace1fd50800000000000000
+      internalID: 6769451897271068364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_89
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f041df95b509880800000000000000
+      internalID: -8606278445848850564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_90
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e27bb53b0ab19b0800000000000000
+      internalID: -5108312660123374070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_91
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ea769f8a0972f20800000000000000
+      internalID: 3397843499287555629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_92
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f002f05be504f000800000000000000
+      internalID: 68686402550890737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_93
+      rect:
+        serializedVersion: 2
+        x: 7744
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734583e37ed661cd0800000000000000
+      internalID: -2587760095929019337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_94
+      rect:
+        serializedVersion: 2
+        x: 7808
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caa7b6e504b34a50800000000000000
+      internalID: 6504240224291760840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_95
+      rect:
+        serializedVersion: 2
+        x: 7872
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5020980b5f6bb9ba0800000000000000
+      internalID: -6081065705488711163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_96
+      rect:
+        serializedVersion: 2
+        x: 7936
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cb002880d0e8570800000000000000
+      internalID: 8470722279322467403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_97
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bd479d4bb6d4170800000000000000
+      internalID: 8164300123979176729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_98
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301cf5a8813126f80800000000000000
+      internalID: -8114902582446538493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_99
+      rect:
+        serializedVersion: 2
+        x: 8128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909ca7c2f739e37d0800000000000000
+      internalID: -2936747732582610679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_100
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93950e4592869b200800000000000000
+      internalID: 196302585494264121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_101
+      rect:
+        serializedVersion: 2
+        x: 8384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eb2e667e3d5e0d0800000000000000
+      internalID: -3394073753336758772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_102
+      rect:
+        serializedVersion: 2
+        x: 8448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5595be8ec33cc50800000000000000
+      internalID: 6684253243026527674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_103
+      rect:
+        serializedVersion: 2
+        x: 8512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e4a9c5d4a7d2e0800000000000000
+      internalID: -2101029463027030824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_104
+      rect:
+        serializedVersion: 2
+        x: 8576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff145f12c4fbb8810800000000000000
+      internalID: 1768717612381192703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_105
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2604dac8898a2020800000000000000
+      internalID: 2317816178846991916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_106
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b439cb4eb85928f0800000000000000
+      internalID: -564822703919778639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_107
+      rect:
+        serializedVersion: 2
+        x: 8768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f930cbad25e4c0800000000000000
+      internalID: -4258947656921255300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_108
+      rect:
+        serializedVersion: 2
+        x: 8832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee6a7f387ca0a20800000000000000
+      internalID: 3029453068969635488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_109
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcf23fe203005440800000000000000
+      internalID: 4922437703853866173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_110
+      rect:
+        serializedVersion: 2
+        x: 9024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d2a7886715c15d0800000000000000
+      internalID: -3090505674745303702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_111
+      rect:
+        serializedVersion: 2
+        x: 9088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c76678a10a34d30800000000000000
+      internalID: 4414548095554452519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_112
+      rect:
+        serializedVersion: 2
+        x: 9152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366b1cfaacbab7970800000000000000
+      internalID: 8753779187745142371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_113
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf50addeebe602640800000000000000
+      internalID: 5053160548223026683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_114
+      rect:
+        serializedVersion: 2
+        x: 9280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b117aea08f2e8db0800000000000000
+      internalID: -4787837124115754573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_115
+      rect:
+        serializedVersion: 2
+        x: 9344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0653ae4f02d2ad9d0800000000000000
+      internalID: -2748835002985073312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_116
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7fad186d2d671b0800000000000000
+      internalID: -5659104063001004102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_117
+      rect:
+        serializedVersion: 2
+        x: 9472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56743b20c4b68070800000000000000
+      internalID: 8108366916578735708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_118
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b026e3916ea709c50800000000000000
+      internalID: 6669966176820290059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_119
+      rect:
+        serializedVersion: 2
+        x: 9664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b455cc0acd148230800000000000000
+      internalID: 3640067152457061558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_120
+      rect:
+        serializedVersion: 2
+        x: 9728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05955d89de7fdb740800000000000000
+      internalID: 5169560547134626128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_121
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc907fb34ab6fb4a0800000000000000
+      internalID: -6575418577812780597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_122
+      rect:
+        serializedVersion: 2
+        x: 9856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8f9f550e2683120800000000000000
+      internalID: 2393771917602060494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_123
+      rect:
+        serializedVersion: 2
+        x: 9920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e03f9e8d513cbc0800000000000000
+      internalID: -3764140842169463187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_124
+      rect:
+        serializedVersion: 2
+        x: 9984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062c518f147cfbd80800000000000000
+      internalID: -8232642507661000096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_125
+      rect:
+        serializedVersion: 2
+        x: 10048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c3ab803e399f7f0800000000000000
+      internalID: -578268473827115944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX Lite 1A sheet_126
+      rect:
+        serializedVersion: 2
+        x: 10112
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1af70cfe729b010800000000000000
+      internalID: 1205038285978575316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
