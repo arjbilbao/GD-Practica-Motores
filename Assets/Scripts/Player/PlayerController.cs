@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public int combo;
     public float _startTime, _DashTime;
     public bool _isDashing;
+    public int _health;
+    public HealthBarUI healthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,8 @@ public class PlayerController : MonoBehaviour
         _hitbox=GetComponent<CircleCollider2D>();
          jump = new Vector2(0f,1f);
          combo = 0;
+         _health=100;
+         healthBar.SetMaxhealth(_health);
             
         
     }
@@ -39,11 +43,13 @@ public class PlayerController : MonoBehaviour
        
           Attacking();
           DashAttack();
+          healthBar.SetHealth(_health);
+          Jumping();
     }
 
     void FixedUpdate(){
              PlayerMovement();
-                Jumping();
+                
         
 
     }
@@ -95,7 +101,7 @@ public class PlayerController : MonoBehaviour
     
     {
             //This section controls the force add to the Vertical component so the player can jump
-            if(Input.GetKeyDown(KeyCode.Space) && _isGrounded){
+            if(Input.GetKeyDown(KeyCode.Space) && _isGrounded==true){
                 
                    _animator.SetBool("Grounded",false);
                    _animator.SetBool("Idle",false);
@@ -147,6 +153,8 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+
+  
 
     void OnDrawGizmosSelected(){
 
@@ -208,6 +216,8 @@ public class PlayerController : MonoBehaviour
 
                 _isGrounded=true;
             }
+        
+          
     }
     void OnCollisionExit2D(Collision2D collision){
 
@@ -215,6 +225,7 @@ public class PlayerController : MonoBehaviour
 
                 _isGrounded=false;
             }
+     
         
     }
 

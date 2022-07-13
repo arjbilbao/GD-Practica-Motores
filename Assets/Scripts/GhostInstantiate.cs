@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InstantiatPrefab : MonoBehaviour
+public class GhostInstantiate : MonoBehaviour
 {
-    public GameObject prefab, Parent;
+    public GameObject prefab;
     public Transform point;
+    public GameObject Parent;
     public float livingTime;
    
-   public void Instatiate(){
+   public void GhostInstatiate(){
         GameObject instantiateObject = Instantiate(prefab, point.position, Parent.transform.rotation) as GameObject;
         
         
@@ -18,3 +19,4 @@ public class InstantiatPrefab : MonoBehaviour
 
    }
 }
+

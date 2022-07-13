@@ -16,9 +16,9 @@ public class SamuraiEnemy : MonoBehaviour
     public Transform AttackPoint;
     public float AttackRange;
     public LayerMask PlayerLayers;
-    public float startTime, _hitTimer;
-    public bool _hitTaken;
-     public bool starting;
+    public float startTime, _attackStartTime,_hitTimer, _attackTimer;
+    public bool _hitTaken, _hitPlayer;
+     public bool starting, _attackStarting;
      public int _health;
      public bool Death=false;
     // Start is called before the first frame update
@@ -29,8 +29,11 @@ public class SamuraiEnemy : MonoBehaviour
         _bloodStream.Stop();
         _blood=true;
         _hitTimer=0;
+        _attackTimer=0;
          starting=true;
+         _attackStarting=true;
          _health=100;
+         _hitPlayer=false;
    
     }
 
@@ -44,6 +47,41 @@ public class SamuraiEnemy : MonoBehaviour
 
 
 
+
+    }
+
+    void AttackTimer()
+    {
+
+        if(_hitPlayer==true){
+               
+
+                if( _attackTimer==0f&&_attackStarting==true){
+
+                    _attackStartTime=Time.time;
+                    _attackStarting=false;
+                    
+                    
+                }
+
+                
+
+                if(_attackTimer<1f&& _attackStartTime>0){
+        
+                        _attackTimer+= Time.deltaTime;
+                }
+                else if(_attackTimer>=1f){
+
+                    _attackTimer=0;
+                    _attackStartTime=0;
+                    _hitPlayer=false;
+                    _attackStarting=true;
+                }
+
+
+
+
+    }
 
     }
 
@@ -106,8 +144,15 @@ public class SamuraiEnemy : MonoBehaviour
                foreach(Collider2D enemy in HitEnemies){
 
                 Debug.Log("I hit the hero");
+               if(_attackTimer==0&&_hitPlayer==false){
+
+                     enemy.GetComponent<PlayerController>()._health-=10;
+                     _hitPlayer=true;
+               }
+               
                 
                }
+              
 
     }
 
@@ -153,7 +198,7 @@ public class SamuraiEnemy : MonoBehaviour
 
                             _animator.SetBool("Run", false);
                            
-                            if(_hitTimer==0&&_hitTaken==false){
+                            if(_hitTimer==0&&_attackTimer==0&&_hitTaken==false){
                                      
                                 
                                 _animator.SetTrigger("Attack");
@@ -168,6 +213,9 @@ public class SamuraiEnemy : MonoBehaviour
                          _animator.SetBool("Run", false);
                     }
                      HitTakenTimer();
+                     AttackTimer();
+                     
+                      
 
 
                   
@@ -175,5 +223,22 @@ public class SamuraiEnemy : MonoBehaviour
 
                    
 
+            }
+
+            void OnCollisionStay2D(Collision2D other){
+
+
+                  if (other.collider.tag == "Player")
+        {
+                            speed = 0f;
+        }
+            }
+
+            void OnCollisionExit2D(Collision2D other){
+
+                  if (other.collider.tag == "Player")
+        {
+            speed = 2.5f;
+        }
             }
 }
