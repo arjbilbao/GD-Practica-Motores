@@ -39,19 +39,8 @@ public class SamuraiEnemy : MonoBehaviour
     {
             
          
-      //This section enables and disables the Particle System for the blooad stream
-        if(_animator.GetCurrentAnimatorStateInfo(0).IsTag("TakeHit"))
-        {
-
-             _blood=true;
-        }
-
-         if(_animator.GetCurrentAnimatorStateInfo(0).IsTag("Idle")&&_blood==true)
-        {
-
-             _bloodStream.Stop();
-             _blood=false;
-        }
+     
+      
 
 
 

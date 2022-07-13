@@ -63,14 +63,14 @@ public class PlayerController : MonoBehaviour
     }
 
     void DashAttack()
-    {
+    { //This method enables a Dash and also, by changing the layer of the player, creates a ghost effect for 2seconds during which the player is invulnerable
             if(Input.GetKeyDown(KeyCode.E) && _isGrounded&&_isDashing==false){
 
                 _animator.SetTrigger("Dash");
                 this.gameObject.layer=8;
                 
                 _isDashing=true;
-                 //rb.velocity= new Vector2(Input.GetAxis("Horizontal")*speed*20*Time.deltaTime, rb.velocity.y);
+             
 
                 rb.MovePosition(new Vector2 (transform.position.x+(Input.GetAxis("Horizontal")*1.8f), transform.position.y));
                 
@@ -129,7 +129,7 @@ public class PlayerController : MonoBehaviour
              
                     //this section is intended to apply damage on the enemies.
 
-
+                //Through this function the GameObject is able to detect all the colliders within the Layer "Enemies".
               Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
                 
                foreach(Collider2D enemy in HitEnemies){
@@ -137,7 +137,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("I hit " + enemy.name);
                 enemy.GetComponent<SamuraiEnemy>()._hitTaken=true;
                 enemy.GetComponent<SamuraiEnemy>()._animator.SetTrigger("HitTaken");
-                enemy.GetComponent<SamuraiEnemy>()._bloodStream.Play();
+                
                 if(combo==2){
                 enemy.GetComponent<SamuraiEnemy>()._health-=20;
 
