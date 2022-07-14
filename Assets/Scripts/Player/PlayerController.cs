@@ -202,6 +202,8 @@ public class PlayerController : MonoBehaviour
             if(rb.velocity.y<0){
 
                   _animator.SetBool("Fall",true);
+                  _animator.SetBool("Run",false);
+                  _animator.SetBool("Grounded",false);
             }
             else if(rb.velocity.y==0) {
                   _animator.SetBool("Fall",false);
@@ -224,6 +226,7 @@ public class PlayerController : MonoBehaviour
              if(collision.gameObject.tag=="Ground"){
 
                 _isGrounded=false;
+                _animator.SetBool("Grounded",true);
             }
      
         

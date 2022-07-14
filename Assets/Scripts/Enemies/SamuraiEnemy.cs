@@ -6,7 +6,7 @@ public class SamuraiEnemy : MonoBehaviour
 {       
 
     public Animator _animator;
-    public ParticleSystem _bloodStream;
+
     public bool _blood;
     private Rigidbody2D rb;
     public GameObject PatrolArea;
@@ -26,7 +26,7 @@ public class SamuraiEnemy : MonoBehaviour
     {
         _animator=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
-        _bloodStream.Stop();
+       
         _blood=true;
         _hitTimer=0;
         _attackTimer=0;
@@ -66,11 +66,11 @@ public class SamuraiEnemy : MonoBehaviour
 
                 
 
-                if(_attackTimer<1f&& _attackStartTime>0){
+                if(_attackTimer<1.2f&& _attackStartTime>0){
         
                         _attackTimer+= Time.deltaTime;
                 }
-                else if(_attackTimer>=1f){
+                else if(_attackTimer>=1.2f){
 
                     _attackTimer=0;
                     _attackStartTime=0;
@@ -131,7 +131,7 @@ public class SamuraiEnemy : MonoBehaviour
                 this.gameObject.layer=8;
                 Destroy(this.gameObject,10);
                 
-             _bloodStream.Stop();
+          
              _blood=false;
             }
         
@@ -147,7 +147,7 @@ public class SamuraiEnemy : MonoBehaviour
                if(_attackTimer==0&&_hitPlayer==false){
 
                      enemy.GetComponent<PlayerController>()._health-=10;
-                     _hitPlayer=true;
+                     
                }
                
                 
@@ -194,7 +194,7 @@ public class SamuraiEnemy : MonoBehaviour
                     }
                     }
                     //Once the Samurai reaches the player within the attack range, he attacks.
-                    if(_playerSeen&&((distance<=0.6f&&distance>=0.0f)|(distance>=-0.6f&&distance<=0.0f))){
+                    if(_playerSeen&&Mathf.Abs(distance)<0.6){
 
                             _animator.SetBool("Run", false);
                            
@@ -202,12 +202,14 @@ public class SamuraiEnemy : MonoBehaviour
                                      
                                 
                                 _animator.SetTrigger("Attack");
-                                Attacking();
+                               Attacking();
+                                _hitPlayer=true;
+                                
                             }
                          
                     }
                    
-                    if(Mathf.Abs(distance)>2f||Mathf.Abs(heigh)>0.3f){
+                    if(Mathf.Abs(distance)>2f||Mathf.Abs(heigh)>0.6f){
 
                         _playerSeen=false;
                          _animator.SetBool("Run", false);
@@ -225,20 +227,5 @@ public class SamuraiEnemy : MonoBehaviour
 
             }
 
-            void OnCollisionStay2D(Collision2D other){
-
-
-                  if (other.collider.tag == "Player")
-        {
-                            speed = 0f;
-        }
-            }
-
-            void OnCollisionExit2D(Collision2D other){
-
-                  if (other.collider.tag == "Player")
-        {
-            speed = 2.5f;
-        }
-            }
+        
 }
