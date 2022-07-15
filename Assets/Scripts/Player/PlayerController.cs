@@ -139,16 +139,37 @@ public class PlayerController : MonoBehaviour
               Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
                 
                foreach(Collider2D enemy in HitEnemies){
+                
 
-                Debug.Log("I hit " + enemy.name);
+                if(enemy.tag=="Enemy"){
+
+                         Debug.Log("I hit " + enemy.name);
                 enemy.GetComponent<SamuraiEnemy>()._hitTaken=true;
                 enemy.GetComponent<SamuraiEnemy>()._animator.SetTrigger("HitTaken");
+               
                 
                 if(combo==2){
                 enemy.GetComponent<SamuraiEnemy>()._health-=20;
 
                 }
                 else enemy.GetComponent<SamuraiEnemy>()._health-=10;
+                }
+                 if(enemy.tag=="Boss"){
+
+                         Debug.Log("I hit " + enemy.name);
+                enemy.GetComponent<BossController>()._hitTaken=true;
+                enemy.GetComponent<BossController>()._animator.SetTrigger("HitTaken");
+               
+                
+                if(combo==2){
+                enemy.GetComponent<BossController>()._health-=20;
+
+                }
+                else enemy.GetComponent<BossController>()._health-=10;
+                }
+
+
+               
                }
 
         }

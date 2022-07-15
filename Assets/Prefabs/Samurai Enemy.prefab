@@ -286,7 +286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 335395421047439322}
-  _bloodStream: {fileID: 0}
   _blood: 0
   PatrolArea: {fileID: 0}
   Player: {fileID: 0}
