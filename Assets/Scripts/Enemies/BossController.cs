@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {       
-
+    public GameObject Bar;
     public Animator _animator;
     public GameObject Aura;
+    public CircleCollider2D Halo;
     public bool _blood;
     private Rigidbody2D rb;
     public GameObject Player, Set;
@@ -21,13 +22,22 @@ public class BossController : MonoBehaviour
      public int _health,_health1, _health2, _health3;
      public bool Death=false;
      public int _state;
-     private bool state1, state2, state3;
+    public bool state1, state2, state3;
+     public float center;
+     public bool _isGrounded, jumping;
+      private Vector2 jump;
+    public float _jumpForce;
+    public int rand;
+    private Vector2 move;
+    private Vector2 move2;
+    public float battleTimer;
+
     // Start is called before the first frame update
     void Start()
     {
         _animator=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
-       
+       Halo.enabled=true;
         _blood=true;
         _hitTimer=0;
         _attackTimer=0;
@@ -39,17 +49,39 @@ public class BossController : MonoBehaviour
          _health3=100;
          _hitPlayer=false;
          _state=0;
-         state1=false;
+         state1=true;
          state2=true;
-         state3=false;
+         state3=true;
+         Aura.SetActive(true);
+           jump = new Vector2(0f,1f);
+           _isGrounded=true;
+           jumping=false;
+           rand=0;
+
+           _animator.SetBool("Grounded", true);
+           
       
    
     }
 
     // Update is called once per frame
     void Update()
-    {
-            
+    {            center=transform.rotation.y;
+                  
+                       
+                        Bar.transform.rotation = Quaternion.Euler (0.0f, transform.rotation.y*(-1.0f), 0.0f); 
+                        
+                    
+       if(rb.velocity.y<0){
+
+        _animator.SetBool("Fall",true);
+
+       }
+       
+     
+                
+    // Boss Health State Machine
+    // Each time a Health Bar is taken out from the Boss, it enters into a Meditation State for 5 Seconds.       
          
     if(_health>=200)
     {
@@ -65,8 +97,18 @@ public class BossController : MonoBehaviour
                     state2=false;
                     state3=true;
                     state1=true;
-                        Aura.SetActive(true);
+                      
                 }
+           if(state1==true)  {
+                            //Meditation Timer
+             battleTimer+=Time.deltaTime;
+                    if(battleTimer>5f){
+
+                        state1=false;
+                        _animator.SetTrigger("Fight");
+                        battleTimer=0f;
+                    }
+           }   
 
 
         _health3=0;
@@ -77,8 +119,22 @@ public class BossController : MonoBehaviour
 
                     _animator.SetTrigger("Meditation");
                     state3=false;
+                    state1=true;
               
                 }
+
+                 if(state1==true)  {
+                             //Meditation Timer
+             battleTimer+=Time.deltaTime;
+                    if(battleTimer>5f){
+
+                        state1=false;
+                        _animator.SetTrigger("Fight");
+                        battleTimer=0f;
+                    }
+                     }
+
+                
 
         _health3=0;
         _health2=0;
@@ -91,9 +147,27 @@ public class BossController : MonoBehaviour
 
     }
 
+    void Jumping()
+    
+    {
+            //This section controls the force add to the Vertical component so the player can jump
+            if(_isGrounded==true&&jumping==true){
+                
+              rb.AddForce(jump * _jumpForce, ForceMode2D.Impulse);
+                                       move2= new Vector2 (0f, rb.velocity.y);
+                                        _animator.SetBool("Grounded",false);
+                                    _isGrounded=false;
+                                    
+            
+                    }      
+
+                                                                                
+
+    }
+
     void AttackTimer()
     {
-
+                //This Method is called for counting the time between a hit and another.
         if(_hitPlayer==true){
                
 
@@ -127,7 +201,7 @@ public class BossController : MonoBehaviour
     }
 
     void HitTakenTimer()
-    {       
+    {       //This Method is called for counting the time between a hit received and a new attack trigger.
         
         if(_hitTaken==true){
                
@@ -161,21 +235,22 @@ public class BossController : MonoBehaviour
     }
 
     void FixedUpdate(){
-            if(_health>0){
+      
+        
+                      if(_health>0){
                     Chasing();
 
             }
-
+        //This Conditions is set when the Boss is defeated
             if(_health<=0&&Death==false){
                 _animator.SetTrigger("Death");
                 Death=true;
                 this.gameObject.layer=8;
-                Destroy(this.gameObject,10);
+                Destroy(this.gameObject,2);
                 
           
              _blood=false;
-            }
-        
+            } 
     }
 
     void Attacking(){
@@ -187,7 +262,7 @@ public class BossController : MonoBehaviour
                 Debug.Log("I hit the hero");
                if(_attackTimer==0&&_hitPlayer==false){
 
-                     enemy.GetComponent<PlayerController>()._health-=10;
+                     enemy.GetComponent<PlayerController>()._health-=20;
                      
                }
                
@@ -198,7 +273,7 @@ public class BossController : MonoBehaviour
     }
 
      void OnDrawGizmosSelected(){
-
+                    //To Visualize the hitbox
             Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
     }
 
@@ -207,8 +282,9 @@ public class BossController : MonoBehaviour
                     //This sections controls the Samurai movement when sees the player.
                     float distance = Player.transform.position.x - Set.transform.position.x;
                     float heigh= Player.transform.position.y - Set.transform.position.y;
+                    
                      //this conditional detects the player when he's within a distance of 2Unities and on plain sight.
-                     if(Mathf.Abs(distance)<2&&Mathf.Abs(heigh)<0.6f&&state1==false){
+                     if(Mathf.Abs(distance)<4&&Mathf.Abs(heigh)<0.6f&&state1==false){
 
                         _playerSeen=true;
                         
@@ -217,34 +293,106 @@ public class BossController : MonoBehaviour
                      
                 
                     if(_playerSeen&&distance>0.6f){
-                            _animator.SetBool("Run", true);
+                               Vector2 samuraiPlace = new Vector2(transform.position.x,transform.position.y);
+
+                               
+                                if(_isGrounded==true&&rand<=5&&jumping==false){
+
+                                   //This secction is called randomly to move the Boss with a jumping force.
+                                     
+                                     jumping=true;
+                                     Jumping();
+                                         
+                                }
+                                  if(jumping&&_isGrounded==false){
+
+                                       
+                                    move = new Vector2 (2f, 0);
+                                    
+                      
+                          rb.MovePosition(samuraiPlace+ new Vector2(move.x *speed*Time.deltaTime, rb.velocity.y*Time.deltaTime));
+                                }
+                                     
                             transform.rotation = Quaternion.Euler(0,0,0);
-                       Vector2 move = new Vector2 (1f, 0f);
-                        Vector2 samuraiPlace = new Vector2(transform.position.x,transform.position.y);
-                            rb.MovePosition(samuraiPlace+move*speed*Time.deltaTime);
+                                if(_isGrounded==true&&jumping==false){
+
+                                         _animator.SetBool("Run", true);
+                                         
+                                            move2 = new Vector2(0f,0f);
+
+                                            move = new Vector2 (1f, 0f);
+                         
+                                        rb.MovePosition(samuraiPlace+(move*speed*Time.deltaTime));
+                                }
+
+                            
+                     
                            
+                             
+                            
+                            
                     }
                      if(_playerSeen&&distance<-0.6f){
-                            _animator.SetBool("Run", true);
-                            transform.rotation = Quaternion.Euler(0,180,0);
-                       Vector2 move = new Vector2 (-1f, 0f);
-                        Vector2 samuraiPlace = new Vector2(transform.position.x,transform.position.y);
-                            rb.MovePosition(samuraiPlace+move*speed*Time.deltaTime);
+                                Vector2 samuraiPlace = new Vector2(transform.position.x,transform.position.y);
+                                transform.rotation = Quaternion.Euler(0,180,0);
+
+
+
+                                 if(_isGrounded==true&&rand<=5&&jumping==false){
+
+                                   
+                                  //This secction is called randomly to move the Boss with a jumping force.
+                                    
+
+                                         jumping=true;
+                                         Jumping();
+                                      
+                                  
+                                   
+                                           
+                                }
+                                if(jumping&&_isGrounded==false){
+
+                                        
+                            move = new Vector2 (-2f, 0);
+                          
+                             rb.MovePosition(samuraiPlace+ new Vector2(move.x *speed*Time.deltaTime, rb.velocity.y*Time.deltaTime));
+                        
+                                }
                             
+                              if(_isGrounded==true&&jumping==false){
+
+                                         _animator.SetBool("Run", true);
+                                      
+                                        move2 = new Vector2(0f,0f);
+
+                                             
+                                                move = new Vector2 (-1f, 0f);
+                   
+                                            rb.MovePosition(samuraiPlace+(move*speed*Time.deltaTime));
+                                }
+
+                               
+                           
+                       
+
+                         
                             
                     }
                     }
                     //Once the Samurai reaches the player within the attack range, he attacks.
-                    if(_playerSeen&&Mathf.Abs(distance)<0.6){
+                    if(_playerSeen&&Mathf.Abs(distance)<0.6&&_isGrounded){
 
                             _animator.SetBool("Run", false);
                            
-                            if(_hitTimer==0&&_attackTimer==0&&_hitTaken==false){
+                            if(_hitTimer==0&&_attackTimer==0&&_hitTaken==false&&jumping==false){
                                      
                                 if(state1==false){
-
+                                    
+                                _animator.SetInteger("Type",Random.Range(0,4)); //This random number changes the type of attack animation the Boss Will execute.
                                 _animator.SetTrigger("Attack");
                                Attacking();
+                               rand = Random.Range(0,9); //This random number allows the boss changing from running to jumping.
                                 _hitPlayer=true;
                                 }
                             
@@ -253,10 +401,11 @@ public class BossController : MonoBehaviour
                          
                     }
                    
-                    if(Mathf.Abs(distance)>2f||Mathf.Abs(heigh)>0.6f){
+                    if(Mathf.Abs(distance)>4f||Mathf.Abs(heigh)>0.6f){
 
                         _playerSeen=false;
                          _animator.SetBool("Run", false);
+                         jumping=false;
                     }
                      HitTakenTimer();
                      AttackTimer();
@@ -270,6 +419,42 @@ public class BossController : MonoBehaviour
                    
 
             }
+
+            void OnCollisionStay2D(Collision2D collision){
+
+                if(collision.gameObject.tag=="Ground"){
+
+                    _isGrounded=true;
+                    _animator.SetBool("Grounded",true);
+                }
+            }
+
+             void OnCollisionEnter2D(Collision2D collision){
+
+                if(collision.gameObject.tag=="Ground"){
+
+                    _isGrounded=true;
+                    jumping=false;
+                    _animator.SetBool("Grounded",true);
+                    _animator.SetBool("Fall",false);
+                    rand=6;
+                }
+            }
+             void OnCollisionExit2D(Collision2D collision){
+
+                if(collision.gameObject.tag=="Ground"){
+
+                    _isGrounded=false;
+                    _animator.SetBool("Grounded",false);
+                     rand = Random.Range(0,9);
+                }
+            }
+
+            void OnDestroy(){
+
+                Player.GetComponent<PlayerController>().GameOver=true;
+            }
+
 
         
 }

@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public bool _isDashing;
     public int _health;
     public HealthBarUI healthBar;
+    public bool GameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
          combo = 0;
          _health=100;
          healthBar.SetMaxhealth(_health);
+         GameOver=false;
             
         
     }
@@ -45,6 +47,11 @@ public class PlayerController : MonoBehaviour
           DashAttack();
           healthBar.SetHealth(_health);
           Jumping();
+
+          if(_health<=0){
+            
+            GameOver=true;
+          }
     }
 
     void FixedUpdate(){
@@ -264,9 +271,12 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D collider){
+    void OnTriggerExit2D(Collider2D collider){
 
-         
+         if(collider.tag=="BossBattle"){
+
+            collider.isTrigger=false;
+         }
     }
 
     
